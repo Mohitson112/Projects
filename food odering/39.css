@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+header {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar::before {
+  content: "";
+  background-color: rgb(39, 5, 5);
+  position: absolute;
+  width: 100%;
+  height: 12vh;
+  z-index: -1;
+  opacity: 0.99;
+  /* opacity: 1; */
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 10px 5px;
+  /* align-items: center; */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 28px;
+  border-radius: 15px;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.logo img {
+  width: 55px;
+  margin: 12px 12px;
+}
+/* main */
+/* section */
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 200px;
+}
+
+.section::before {
+  content: "";
+  display: block;
+  background: url("img/bgg.jpg") no-repeat center center/cover;
+  position: absolute;
+  width: 100vw;
+  height: 420px;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.section h1 {
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 43px;
+  color: black;
+}
+/* utilities class */
+
+/* h-primary {
+  font-size: 45px;
+} */
+
+.centre {
+  text-align: center;
+}
+
+/* utilities class (*/
+
+.section p {
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 20px;
+  padding: 2px 0px;
+  color: white;
+}
+
+/* button */
+.btn {
+  margin: 12px 0px;
+  padding: 5px 5px;
+  font-size: 19px;
+  border-radius: 4px;
+  border: solid 2px white;
+  cursor: pointer;
+  font-family: "Otomanopee One", sans-serif;
+}
+
+/* services-con */
+
+.services-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.heding {
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+/* boxes */
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 392px;
+
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid brown;
+  border-radius: 15px;
+  margin: 40px 15px;
+  background-color: #e4d8da;
+  padding: 2px 20px;
+}
+
+.box p {
+  font-size: 15px;
+}
+
+.box h1 {
+  font-family: "Otomanopee One", sans-serif;
+}
+
+.box img {
+  height: 135px;
+}
+
+/* client section */
+.client-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.clients::before {
+  content: "";
+  display: block;
+  background: url("img/clients.jpg") no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.client-section h1 {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.client-item img {
+  width: 180px;
+  padding: 12px;
+  margin: 12px;
+}
+
+/* contact-box */
+
+.conatct h1 {
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 70px;
+}
+
+.contact-box form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formgroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formgroup input,
+textarea {
+  width: 400px;
+  padding: 5px 0px;
+  margin: 8px 0px;
+}
+
+/* footer */
+footer {
+  background-color: blue;
+  color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}

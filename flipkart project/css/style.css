@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+
+:root {
+  --main-bg-color: #2455f4;
+}
+
+body {
+  background-color: #f2e7e7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* this is an css of header  */
+
+.navbar {
+  background-color: var(--main-bg-color);
+  font-family: "Uchen", serif;
+  /* width: 100vw; */
+  height: 50px;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 34px;
+}
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  /* width: 8px; */
+  padding: 0px 12px;
+  /* height: 8px; */
+  /* margin: 12px 12px; */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+}
+
+.navbar ul li a:hover {
+  color: black;
+  font-weight: bold;
+}
+/* this is css of main content */
+.container {
+  min-height: calc(100vh - 50px - 10vh);
+}
+
+.search {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+#search {
+  width: 553px;
+  height: 33px;
+  margin: 6px 9px;
+}
+
+.btn {
+  padding: 0px 12px;
+  background-color: #a8a1a1;
+  font-size: revert;
+  border-radius: 3px;
+  border: 2px solid beige;
+}
+/* this is an css of main */
+
+.slider {
+  width: 80vw;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+/* this is an css of footer */
+footer {
+  display: flex;
+  height: 10vh;
+  background-color: var(--main-bg-color);
+  justify-content: center;
+  align-items: center;
+}
+
+/* this  is an css of card */
+
+.cards {
+  display: flex;
+}
+
+.card {
+  padding: 0px 12px;
+  overflow: scroll;
+}
+
+.card h2 {
+  margin: 4px 0px;
+}
+
+.card-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+footer p {
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Uchen", serif;
+  font-size: 25px;
+}

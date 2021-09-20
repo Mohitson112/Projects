@@ -1,0 +1,68 @@
+@media screen and (max-width: 1000px) {
+  /* body {
+    background-color: red;
+  } */
+  .navbar {
+    flex-direction: column;
+    height: 123px;
+  }
+  .logo {
+    justify-content: center;
+  }
+  .logo img {
+    height: 22px;
+    padding: 2px;
+  }
+  ul {
+    justify-content: center;
+  }
+
+  .search {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  /* body {
+    background-color: grey;
+  } */
+
+  #search {
+    width: 50vw;
+    height: 19px;
+    margin: 6px 9px;
+  }
+
+  .btn {
+    font-size: 4vw;
+  }
+  .logo img {
+    height: 22px;
+  }
+
+  .navbar {
+    height: 93px;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 5vw;
+  }
+
+  .navbar ul {
+    height: 34px;
+  }
+
+  footer p {
+    font-size: 18px;
+  }
+  .slider {
+    font-size: 68vh;
+  }
+
+  .card-item img {
+    width: 140px;
+  }
+}
